@@ -42,7 +42,7 @@ class SignUpViewController: UIViewController, UINavigationControllerDelegate, UI
         createUser()
         sleep(2)
         addProfileElements()
-        self.performSegue(withIdentifier: "registerToHome", sender: nil)
+        self.performSegue(withIdentifier: "signUpToMainPage", sender: nil)
     }
     
     @IBAction func tapToChangePressed(_ sender: Any) {

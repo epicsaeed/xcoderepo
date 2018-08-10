@@ -1,0 +1,6 @@
+framework module Pods_Static_Cells_Tutorial {
+  umbrella header "Pods-Static Cells Tutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}

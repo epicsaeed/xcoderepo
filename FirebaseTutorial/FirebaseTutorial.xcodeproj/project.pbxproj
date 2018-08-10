@@ -18,6 +18,7 @@
 		30B794BC211485CB006BE074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B794BA211485CB006BE074 /* LaunchScreen.storyboard */; };
 		30B794C4211489C4006BE074 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B794C3211489C4006BE074 /* SignUpViewController.swift */; };
 		30B794C821148BDB006BE074 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B794C721148BDB006BE074 /* ProfileViewController.swift */; };
+		30F251FE211D771A008CB702 /* MainPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F251FD211D771A008CB702 /* MainPageTableViewController.swift */; };
 		409FC58436E9922642E3F00F /* Pods_FirebaseTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB15E7361024B21980B6308 /* Pods_FirebaseTutorial.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		30B794BD211485CB006BE074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30B794C3211489C4006BE074 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		30B794C721148BDB006BE074 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		30F251FD211D771A008CB702 /* MainPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageTableViewController.swift; sourceTree = "<group>"; };
 		731D5350A2DFAA08266578CB /* Pods-FirebaseTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		8EA06CA51209C667B24CE625 /* Pods-FirebaseTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseTutorial/Pods-FirebaseTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		9BB15E7361024B21980B6308 /* Pods_FirebaseTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 				30B794C721148BDB006BE074 /* ProfileViewController.swift */,
 				3030BDBB2119C86400D152E2 /* HomeViewController.swift */,
 				3030BDBD211AD10C00D152E2 /* EditProfileViewController.swift */,
+				30F251FD211D771A008CB702 /* MainPageTableViewController.swift */,
 			);
 			path = FirebaseTutorial;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				30B794B2211485CA006BE074 /* AppDelegate.swift in Sources */,
 				3030BDBC2119C86400D152E2 /* HomeViewController.swift in Sources */,
 				3030BDBE211AD10C00D152E2 /* EditProfileViewController.swift in Sources */,
+				30F251FE211D771A008CB702 /* MainPageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

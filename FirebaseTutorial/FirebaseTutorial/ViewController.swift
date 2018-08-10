@@ -27,10 +27,10 @@ class StartUpViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.isNavigationBarHidden = true
 
-        if Auth.auth().currentUser != nil{
-            print("user is already logged in.")
-            self.performSegue(withIdentifier: "startToHome", sender: nil)
-        }
+//        if Auth.auth().currentUser != nil{
+//            print("user is already logged in.")
+//            self.performSegue(withIdentifier: "startUpToMainPage", sender: nil)
+//        }
     }
     
     //MARK: Action Functions
