@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tut2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skyline" translatesAutoresizingMaskIntoConstraints="NO" id="rbl-BK-BaW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="edC-cZ-kz4">
+                                <rect key="frame" x="0.0" y="467" width="375" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abu Dhabi City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKu-qf-4GU">
+                                        <rect key="frame" x="20" y="20" width="335" height="29"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSZ-VA-Tcc">
+                                        <rect key="frame" x="20" y="59" width="335" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.77102953767123283" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="BSZ-VA-Tcc" secondAttribute="trailing" constant="20" id="88T-YT-VFA"/>
+                                    <constraint firstItem="BSZ-VA-Tcc" firstAttribute="leading" secondItem="edC-cZ-kz4" secondAttribute="leading" constant="20" id="IaU-BK-IWm"/>
+                                    <constraint firstItem="uKu-qf-4GU" firstAttribute="top" secondItem="edC-cZ-kz4" secondAttribute="top" constant="20" id="Mlc-fx-GCc"/>
+                                    <constraint firstItem="BSZ-VA-Tcc" firstAttribute="top" secondItem="uKu-qf-4GU" secondAttribute="bottom" constant="10" id="Nae-hW-H4i"/>
+                                    <constraint firstAttribute="trailing" secondItem="uKu-qf-4GU" secondAttribute="trailing" constant="20" id="cij-tf-ccD"/>
+                                    <constraint firstItem="uKu-qf-4GU" firstAttribute="leading" secondItem="edC-cZ-kz4" secondAttribute="leading" constant="20" id="lYV-ap-7TX"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="edC-cZ-kz4" secondAttribute="bottom" id="3rq-0R-hOw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="edC-cZ-kz4" secondAttribute="trailing" id="4sM-a3-eim"/>
+                            <constraint firstItem="rbl-BK-BaW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BMJ-au-dEs"/>
+                            <constraint firstItem="edC-cZ-kz4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DzJ-wP-Aqv"/>
+                            <constraint firstItem="edC-cZ-kz4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="bbl-ex-her"/>
+                            <constraint firstItem="rbl-BK-BaW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cD7-00-FlE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rbl-BK-BaW" secondAttribute="bottom" id="dg7-6u-8Ec"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rbl-BK-BaW" secondAttribute="trailing" id="gPA-9b-muG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="skyline" width="1024" height="465"/>
+    </resources>
+</document>
